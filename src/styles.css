@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* =====================
+### Exercise styling ###
+https://medium.com/@_bengarrison/accessing-and-modifying-css-variables-with-javascript-2ccb735bbff0
+===================== */
+:root {
+  --footer-color: #2cba92;
+  /* @reasonCode green */
+  --palatte-padding-left: 0px
+}
+
+footer {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: var(--palatte-padding-left);
+  background-color: var(--footer-color);
+  border-radius: 15px;
+}
+
+/* =======================
+### Additional styling ###
+======================= */
+body {
+  padding: 1rem;
+}
